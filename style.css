@@ -1,0 +1,19 @@
+
+body {
+    width: 1250px;
+    background: url("images/bg-img1.png") no-repeat center;
+}
+
+#clock {
+    width: 260px;
+    height: 260px;
+    margin: 100px 0 200px 350px;
+    position: relative;
+    background: url("images/clock-face-templates-simple.png") no-repeat center;
+}
+
+#sec, #min, #hou {
+    display: block;
+    position: absolute;
+
+}
